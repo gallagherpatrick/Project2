@@ -1,0 +1,196 @@
+body {
+    background-image: linear-gradient(135deg, #FC5E55, #FA4083);
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    font-size: 1.125rem;
+}
+
+a {
+    color: rgba(255, 255, 255, 0);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.card1 {
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card2 {
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card3 {
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card1,
+.card2,
+.card3 {
+    padding: 10px 30px 20px 30px;
+    box-sizing: border-box;
+}
+
+.herobox1 {
+    flex: 2;
+    padding-right: 100px;
+}
+
+.herobox2 {
+    flex: 1;
+}
+
+h1 {
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    margin-bottom: .5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: .5rem;
+}
+
+.cards p {
+    font-size: .8rem;
+    line-height: 1.2rem;
+}
+
+i {
+    margin-bottom: 5px;
+    margin: 20px;
+    font-size: 100px;
+}
+
+.cards a {
+    color: white;
+    text-decoration: none;
+}
+
+.mybutton {
+    background-color: white;
+    color: #FA4083;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.mybutton:hover {
+    background-color: aquamarine;
+    transition: 500ms;
+}
+
+.navbutton {
+    padding: 8px 20px;
+    border: 1px solid white;
+    margin-left: 20px;
+    display: inline;
+    position: relative;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+/* .tbox :last-child {
+    font-size: .8rem;
+} */
+
+.tbox p:last-of-type {
+    font-size: .8rem;
+    padding-left: 30px;
+}
+
+a {
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.navbutton:hover .dropdown {
+    display: block;
+}
+
+.dropdown .navbutton a {
+    width: 90px;
+    padding-top: 10px;
+    background-color: white;
+    color: #FA4083;
+}
